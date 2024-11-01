@@ -13,6 +13,15 @@ html {
     }
   }
 
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+      width: 100%;
+      margin: 0;
+    }
+  }
+
 body {
     background-color: whitesmoke;
 }
@@ -74,4 +83,3 @@ body {
 .container-content {
     text-align: center;
 }
-
