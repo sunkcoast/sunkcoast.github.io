@@ -8,7 +8,6 @@ html {
 @media only screen and (min-width: 992px) {
     body {
       font-size: 16px;
-      width: 90%;
       margin: auto;
     }
   }
@@ -19,18 +18,13 @@ body {
 
 .container {
     background-color: white;
+    margin-right: auto;
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 1%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
      -5px -5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.container-navbar {
-    background-color: white;
-    width: 100%;
-    height: 40px;
 }
 
 .ul-navbar {
@@ -42,10 +36,11 @@ body {
 
 .li-navbar {
     list-style-type: none;
-    padding: 10px;
-    margin: 15px;
+    padding: 5px;
+    margin: 10px;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .li-navbar:hover {
@@ -61,16 +56,35 @@ body {
 
 .container-image {
     display: flex;
+    margin-right: auto;
     justify-content: center;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 .img-content {
-    width: 12%;
-    height: 12%;
-    border-radius: 40%;
+    float: right;
+    width: 250px;
+    padding: 10px;
 }
 
 .container-content {
-    text-align: center;
+    display:flex;
+    padding: 10px;
+    list-style-type:none;
+    justify-content:space-evenly;
 }
+
+
+.profile {
+    text-align: middle;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.education {
+    text-align: center;
+    font-size: 17px;
+}
+
