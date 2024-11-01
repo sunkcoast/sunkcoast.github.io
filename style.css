@@ -8,7 +8,7 @@ html {
 @media only screen and (min-width: 992px) {
     body {
       font-size: 16px;
-      width: 80%;
+      width: 90%;
       margin: auto;
     }
   }
@@ -67,15 +67,15 @@ body {
 .container-image {
     display: flex;
     margin-right: auto;
-    margin-left: auto;
     justify-content: center;
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .img-content {
-    width: 90px;
-    padding: 40px;
+    float: right;
+    width: 250px;
+    padding: 10px;
 }
 
 .container-content {
@@ -87,7 +87,7 @@ body {
 
 
 .profile {
-    text-align: justify;
+    text-align: middle;
     align-items: center;
     padding: 20px;
     font-size: 20px;
