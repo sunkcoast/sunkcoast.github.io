@@ -4,6 +4,24 @@ html {
     padding: 0;
 }
 
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+    body {
+      font-size: 16px;
+      width: 90%;
+      margin: auto;
+    }
+  }
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    body {
+      font-size: 12px;
+      width: 100%;
+      margin: 0;
+    }
+  }
+
 body {
     background-color: whitesmoke;
 }
@@ -29,7 +47,6 @@ body {
     height: 40px;
     justify-content: center;
     align-items: center;
-
 }
 
 .li-navbar {
@@ -51,10 +68,9 @@ body {
 }
 
 
-.container-content {
+.container-image {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 20px;
 }
 
@@ -64,9 +80,7 @@ body {
     border-radius: 40%;
 }
 
-.container-footer {
-    justify-content: center;
-    align-items: center;
+.container-content {
     text-align: center;
 }
 
