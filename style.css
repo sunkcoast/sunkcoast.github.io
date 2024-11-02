@@ -40,11 +40,10 @@ body {
 }
 
 .container-image {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: auto;
+    text-align: center;
     background-color: yellowgreen;
 }
 
@@ -58,13 +57,11 @@ body {
 }
 
 .profile {
-    margin: 5px;
-    justify-content: justify;
-    align-items: center;
     text-align: left;
     font-size: 18px;
-    width: 50%;
+    width: 100%;
     height: auto;
+    padding: 10px;
     background-color: lightgreen;
 }
 
@@ -73,6 +70,8 @@ body {
     justify-content:center;
     align-items: center;
     background-color: lemonchiffon;
+    width: 100%;
+    height: auto;
 }
 
 .container-content1 {
@@ -107,6 +106,7 @@ body {
 .education1 {
     list-style-type: none;
     padding: 10px;
+    margin: 10px;
     font-size: 18px;
     text-align: center;
     background-color: blueviolet;
@@ -117,7 +117,8 @@ body {
 .education2 {
     list-style-type: none;
     padding: 10px;
-    font-size: 1ypx;
+    margin: 10px;
+    font-size: 18px;
     text-align: center;
     background-color: palevioletred;
     width: 30%;
@@ -125,7 +126,6 @@ body {
 }
 
 .kolom0 {
-    margin: 5px;
     padding: 5px;
     text-align: left;
     justify-content: center;
@@ -151,3 +151,8 @@ body {
     background-color: darkmagenta;
 }
 
+.li-footer {
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
