@@ -58,6 +58,7 @@ body {
 }
 
 .profile {
+    padding: 5px;
     margin: 5px;
     justify-content: justify;
     align-items: center;
