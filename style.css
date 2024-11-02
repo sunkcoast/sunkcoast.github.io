@@ -43,32 +43,107 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #999;
+    width: auto;
+    height: auto;
+    background-color: yellowgreen;
 }
 
 .img-content {
+    float:center;
+    align-items: center;
     justify-content: center;
     width: 15%;
     padding: 5px;
-    border: 1px solid #999;
+    height: auto;
+    background-color: maroon;
+}
+
+.profile {
+    margin: 5px;
+    justify-content: justify;
+    align-items: center;
+    text-align: left;
+    font-size: 17px;
+    width: 50%;
+    height: auto;
+    background-color: lightgreen;
 }
 
 .container-content {
     display:flex;
-    list-style-type:none;
-    justify-content:space-evenly;
-    border: 1px solid #999;
+    justify-content:center;
+    align-items: center;
+    background-color: lemonchiffon;
 }
 
-.profile {
-    text-align: left;
-    font-size: 20px;
-    border: 1px solid #999;
+.container-content1 {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:gray;
+    width: 100%;
+}
+
+.container-content2 {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
 }
 
 .education {
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+    font-size: 18px;
     text-align: center;
+    background-color: seagreen;
+    width: 20%;
+}
+
+.education1 {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: blueviolet;
+    width: 30%;
+}
+
+.education2 {
+    list-style-type: none;
+    padding: 12px;
     font-size: 17px;
-    border: 1px solid #999;
+    text-align: center;
+    background-color: palevioletred;
+    width: 30%;
+}
+
+.kolom0 {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+.kolom {
+    padding: 5px;
+    text-align: center;
+    background-color: royalblue;
+}
+
+.kolom1 {
+    padding: 5px;
+    text-align: center;
+    background-color: gold;
+}
+
+.kolom2 {
+    padding: 5px;
+    text-align: center;
+    background-color: darkmagenta;
 }
 
