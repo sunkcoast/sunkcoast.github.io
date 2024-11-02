@@ -52,15 +52,12 @@ body {
     width: 15em;
     float: left;
     padding: 1em;
-    margin-right: 15px;
     background-color: maroon;
 }
 
 .profile {
     text-align: left;
     font-size: 18px;
-    width: 100%;
-    height: auto;
     padding: 10px;
     background-color: lightgreen;
 }
@@ -70,8 +67,6 @@ body {
     justify-content:center;
     align-items: center;
     background-color: lemonchiffon;
-    width: 100%;
-    height: auto;
 }
 
 .container-content1 {
@@ -79,8 +74,6 @@ body {
     justify-content:center;
     align-items: center;
     background-color:gray;
-    width: 100%;
-    height: auto;
 }
 
 .container-content2 {
@@ -88,8 +81,6 @@ body {
     justify-content:center;
     align-items: center;
     background-color: aquamarine;
-    width: 100%;
-    height: auto;
 }
 
 .education {
@@ -100,7 +91,6 @@ body {
     text-align: center;
     background-color: seagreen;
     width: 20%;
-    height: auto;
 }
 
 .education1 {
@@ -111,7 +101,6 @@ body {
     text-align: center;
     background-color: blueviolet;
     width: 30%;
-    height: auto;
 }
 
 .education2 {
@@ -122,7 +111,6 @@ body {
     text-align: center;
     background-color: palevioletred;
     width: 30%;
-    height: auto;
 }
 
 .kolom0 {
