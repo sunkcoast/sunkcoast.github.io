@@ -49,12 +49,11 @@ body {
 }
 
 .img-content {
-    float:center;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    padding: 5px;
-    height: auto;
+    height: 15em;
+    width: 15em;
+    float: left;
+    padding: 1em;
+    margin-right: 15px;
     background-color: maroon;
 }
 
