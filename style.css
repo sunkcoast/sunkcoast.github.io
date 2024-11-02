@@ -80,8 +80,6 @@ body {
     justify-content:center;
     align-items: center;
     background-color:gray;
-    width: 100%;
-    height: auto;
 }
 
 .container-content2 {
@@ -89,8 +87,6 @@ body {
     justify-content:center;
     align-items: center;
     background-color: aquamarine;
-    width: 100%;
-    height: auto;
 }
 
 .education {
@@ -107,6 +103,7 @@ body {
 .education1 {
     list-style-type: none;
     padding: 10px;
+    margin: 10px;
     font-size: 18px;
     text-align: center;
     background-color: blueviolet;
@@ -117,7 +114,8 @@ body {
 .education2 {
     list-style-type: none;
     padding: 10px;
-    font-size: 1ypx;
+    margin: 10px;
+    font-size: 18px;
     text-align: center;
     background-color: palevioletred;
     width: 30%;
