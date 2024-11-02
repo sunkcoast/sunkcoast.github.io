@@ -24,7 +24,7 @@ https://sunkcoast.github.io
               <a href="https://github.com/user-attachments/assets/416b82e8-3625-4bc7-b5d5-07c101c0a39d">INI FOTO</a>
           </li>
           <li>
-            <h3>finally known about css</h3> 
+            <h3>with some css touch</h3> 
               <a href="https://github.com/user-attachments/assets/75860425-b0e1-4242-a27f-4f732b7a88de">INI FOTO</a>
           </li>
           <li>
