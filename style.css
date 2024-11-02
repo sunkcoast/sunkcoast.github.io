@@ -107,7 +107,8 @@ body {
 }
 
 .kolom0 {
-    padding: 5px;
+    padding: 10px;
+    margin: 5px;
     text-align: left;
     justify-content: center;
     align-items: center;
@@ -115,16 +116,22 @@ body {
 }
 
 .kolom {
+    padding: 10px;
+    margin: 5px;
     text-align: center;
     background-color: royalblue;
 }
 
 .kolom1 {
+    padding: 10px;
+    margin: 5px;
     text-align: center;
     background-color: gold;
 }
 
 .kolom2 {
+    padding: 10px;
+    margin: 5px;
     text-align: center;
     background-color: darkmagenta;
 }
