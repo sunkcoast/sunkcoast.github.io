@@ -58,7 +58,6 @@ body {
 .profile {
     text-align: left;
     font-size: 18px;
-    padding: 10px;
     background-color: lightgreen;
 }
 
@@ -85,32 +84,26 @@ body {
 
 .education {
     list-style-type: none;
-    padding: 10px;
-    margin: 10px;
     font-size: 18px;
     text-align: center;
     background-color: seagreen;
-    width: 30%;
+    width: 100%;
 }
 
 .education1 {
     list-style-type: none;
-    padding: 10px;
-    margin: 10px;
     font-size: 18px;
     text-align: center;
     background-color: blueviolet;
-    width: 30%;
+    width: 100%;
 }
 
 .education2 {
     list-style-type: none;
-    padding: 10px;
-    margin: 10px;
     font-size: 18px;
     text-align: center;
     background-color: palevioletred;
-    width: 30%;
+    width: 100%;
 }
 
 .kolom0 {
@@ -122,19 +115,16 @@ body {
 }
 
 .kolom {
-    padding: 5px;
     text-align: center;
     background-color: royalblue;
 }
 
 .kolom1 {
-    padding: 5px;
     text-align: center;
     background-color: gold;
 }
 
 .kolom2 {
-    padding: 5px;
     text-align: center;
     background-color: darkmagenta;
 }
