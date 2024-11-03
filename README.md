@@ -32,8 +32,12 @@ https://sunkcoast.github.io
              <a href="https://github.com/user-attachments/assets/f72f445a-13fa-4d90-bd0a-9d4a257fed02">INI FOTO</a>
           </li>
           <li>
-            <h3>colouring and styling  layouts</h3>
+            <h3>colouring and styling layouts</h3>
              <a href="https://github.com/user-attachments/assets/f4832835-6c88-4380-a606-7f2a76b2b152">INI FOTO</a>
+          </li>
+          <li>
+            <h3>each position and layouts</h3>
+             <a href="https://github.com/user-attachments/assets/1816c059-ff86-43f0-9ccf-68793c7ba62d">INI FOTO</a>
           </li>
        </ul>
       </div>
