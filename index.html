@@ -3,14 +3,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JUDUL WEBSITE -->
     <title>TRIAL PROJECT</title>
-   
+    <!-- LINK TO CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
         <!-- NAVIGATION BAR (HEADER)-->
-       <div class="container-body">
+   <div class="container-body">
         <div class="container-header">
           <ul class="ul-header">
             <li class="li-header">
@@ -24,74 +27,94 @@
             </li>
            </ul>
         </div>
-      <!-- <NAVIGATION BAR END -->
+       <!-- <NAVIGATION BAR END -->
 
-      <!-- CONTENT 1 (ISI)-->
+       <!-- CONTENT 1 (ISI)-->
         <div class="container-image">
-           <img class="img-content" src="megaloman.jpg" alt="deskripsi"/>
-           <div class="profile">
-            <h2 class="kolom0">Profile</h2>
-            <p class="halo">Halo! Saya iBas, dan saat ini saya baru saja mulai belajar pemrograman. Meski masih di tahap awal, saya sangat penasaran dan bersemangat untuk memahami dunia teknologi ini.</p>
-          </div>
-        </div>
-        <div class="container-content1">
-            <div class="education1">
-            <h2 class="kolom1">Education</h2>
-              <div class="smk">
-                <p>SMK PGRI 1 Sidoarjo</p>
-                <p><i>(Teknik Instalasi Tenaga Listrik</i>)</p>
-              </div>
-              <div class="smk1">
-                <p>UPT BLK Surabaya</p>
-                <p><i>(Programmable Logic Controller)</i></p>
-              </div>
+          <img class="img-content" src="megaloman4.jpg" alt="deskripsi"/>
+          <div class="profile">
+            <h2 class="kolom-profile">Profile</h2>
+            <p class="introduction">Halo! Saya iBas, dan saat ini saya baru saja mulai belajar pemrograman. Meski masih di tahap awal, saya sangat penasaran dan bersemangat untuk memahami dunia teknologi ini.</p>
+            <div class="container-sosmed">
+              <ul class="ul-sosmed">
+                <li class="li-sosmed">
+                  <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li class="li-sosmed">
+                  <a href="#" class="fa fa-instagram"></a>
+                </li>
+                <li class="li-sosmed">
+                  <a href="#" class="fa fa-twitter"></a>
+                </li>
+              </ul>
             </div>
-        </div> 
-        <div class="container-content2">
-          <div class="education2">
-            <h2 class="kolom2">Experience</h2>
-              <div class="job">
-                <p>PT. DELTA JAYA ENGINEERING</p>
-                <p><i>(Junior Engineer</i>)</p>
-              </div>
-              <div  class="job">
-                <p>PT. KARYA TERANG SEDATI</p>
-                <p><i>(Maintenance Engineering</i>)</p>
-              </div>
-         </div>
+          </div>
+          
         </div>
-        <div class="container-content">
+        
+        <div class="container-education">
           <div class="education">
-            <h2 class="kolom">Skill Code</h2>
+           <h2 class="kolom-education">Education</h2>
+             <div class="smk">
+               <p>SMK PGRI 1 Sidoarjo</p>
+               <p><i>(Teknik Instalasi Tenaga Listrik</i>)</p>
+             </div>
+             <div class="smk">
+               <p>UPT BLK Surabaya</p>
+               <p><i>(Programmable Logic Controller)</i></p>
+             </div>
+           </div>
+       </div> 
+
+       <div class="container-experience">
+        <div class="experience">
+           <h2 class="kolom-experience">Experience</h2>
+             <div class="job">
+               <p>PT. DELTA JAYA ENGINEERING</p>
+               <p><i>(Junior Engineer</i>)</p>
+             </div>
+             <div  class="job">
+               <p>PT. KARYA TERANG SEDATI</p>
+               <p><i>(Maintenance Engineering</i>)</p>
+             </div>
+        </div>
+       </div>
+       
+        <div class="container-skill">
+          <div class="skill-task">
+            <h2 class="kolom-skill">Skill Code</h2>
             <p class="skill">HTML</p>
             <p class="skill">CSS</p>
             <p class="skill">Javascript</p>
           </div>
-          <div class="education">
-            <h2 class="kolom">Active Tasks</h2>
+          <div class="skill-task">
+            <h2 class="kolom-skill">Active Tasks</h2>
             <p class="skill">On Progress</p>
             <p class="skill">On Progress</p>
-            <p class="skill">Locked</p>
+            <p class="skill">On Progress</p>
           </div>
         </div>
-      <!-- CONTENT 1 END -->
+       <!-- CONTENT 1 END -->
 
+
+      <!-- FOOTER CONTENT (COPYRIGHT) -->
       <section id="footer">
       <div class="container-footer">
         <h2></h2>
         <ul class="ul-footer">
           <li class="li-footer">
-            <a href="index.html" class="a-footer">© 2024 Ini Copyright. </a>
+            <a class="a-footer">© 2024 Ini Copyright. </a>
           </li>
          </ul>
       </div>
      </section>
+      <!-- FOOTER CONTENT (COPYRIGHT) END -->
 
     </div>
 
-      <script>
-        // <-- (INSERT SOMETHING LATER) -->
-      </script>
+    <script> src="https://unpkg.com/scrollreveal"</script> 
+
+    <script src="main.js"></script>
       
     <style>
       @font-face {
@@ -103,6 +126,8 @@
       font-family: Baskic;
     }
     </style>
+
+    
 
 </body>
 </html>
