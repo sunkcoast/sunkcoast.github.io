@@ -3,7 +3,7 @@
 https://sunkcoast.github.io
 
 <h1>Progress Coding (field report)</h1>
-  <p>due to certain circumstances, I am putting my note here in case I cannot access my computer</p>
+  <p>Due to certain circumstances, I am writing my journey notes in case I cannot access my computer</p>
 
 <!DOCTYPE html>
 <html lang="en">
