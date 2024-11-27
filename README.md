@@ -1,4 +1,4 @@
-# Personal Website
+![image](https://github.com/user-attachments/assets/986270d7-899a-488d-9005-22152063a5a3)# Personal Website
 
 https://sunkcoast.github.io
 
@@ -38,6 +38,14 @@ https://sunkcoast.github.io
           <li>
             <h3>each position and layouts</h3>
              <a href="https://github.com/user-attachments/assets/1816c059-ff86-43f0-9ccf-68793c7ba62d">INI FOTO</a>
+          </li>
+          <li>
+            <h3>black and white theme</h3>
+             <a href="https://github.com/user-attachments/assets/b52044cf-631a-4ed9-804d-819c571992e2">INI FOTO</a>
+          </li>
+          <li>
+            <h3>added social media icon</h3>
+             <a href="https://github.com/user-attachments/assets/08c50f70-f293-4cbc-8f9f-e842ca5e1fcc">INI FOTO</a>
           </li>
        </ul>
       </div>
