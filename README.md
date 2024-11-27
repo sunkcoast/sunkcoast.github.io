@@ -2,7 +2,7 @@
 
 https://sunkcoast.github.io
 
-<h1>progress coding (field report)</h1>
+<h1>Progress Coding (field report)</h1>
   <p>due to certain circumstances, I am putting my note here in case I cannot access my computer</p>
 
 <!DOCTYPE html>
