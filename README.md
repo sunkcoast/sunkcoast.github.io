@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/986270d7-899a-488d-9005-22152063a5a3)# Personal Website
+# Personal Website
 
 https://sunkcoast.github.io
 
