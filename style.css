@@ -17,7 +17,6 @@ body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1000px;
     height: auto;
     margin: 20px;
     background-color: #0a1013;
@@ -45,6 +44,8 @@ body {
 }
 
 .a-header {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #060606;
     text-decoration: none;
 }
@@ -160,8 +161,8 @@ body {
     width: 50%;
     background-color: #1e2d2e;
     border-radius: 20px;
-    /* box-shadow: 5px 5px 5px rgba(177, 15, 77, 0.795), */
-    /* -5px -5px 5px rgba(182, 14, 146, 0.795); */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.350),
+    -5px -5px 5px rgba(0, 0, 0, 0.350);
 }
 
 .kolom-education {
@@ -182,7 +183,7 @@ body {
     margin: 5px;
     color: #ecf0f3;
     border-radius: 5px;
-    background-color: #060606;
+    background-color: #0a1013;
     /* box-shadow: 5px 5px 5px rgba(177, 15, 77, 0.795), */
     /* -5px -5px 5px rgba(182, 14, 146, 0.795); */
 }
@@ -202,8 +203,8 @@ body {
     width: 50%;
     background-color: #1e2d2e;
     border-radius: 20px;
-    /* box-shadow: 5px 5px 5px rgba(214, 127, 13, 0.795), */
-    /* -5px -5px 5px rgba(192, 166, 16, 0.795); */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.350),
+    -5px -5px 5px rgba(0, 0, 0, 0.350);
 }
 
 .kolom-experience {
@@ -224,7 +225,7 @@ body {
     margin: 5px;
     border-radius: 5px;
     color: #ecf0f3;
-    background-color: #060606;
+    background-color: #0a1013;
     /* box-shadow: 5px 5px 5px rgba(214, 127, 13, 0.795), */
     /* -5px -5px 5px rgba(192, 166, 16, 0.795); */
 }
@@ -244,8 +245,8 @@ body {
     width: 50%;
     background-color: #1e2d2e;
     border-radius: 20px;
-    /* box-shadow: 5px 5px 5px rgba(14, 164, 184, 0.795), */
-    /* -5px -5px 5px rgba(63, 11, 207, 0.795); */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.350),
+    -5px -5px 5px rgba(0, 0, 0, 0.350);
 }
 
 .kolom-skill {
@@ -266,7 +267,7 @@ body {
     margin: 5px;
     color: #ecf0f3;
     border-radius: 5px;
-    background-color: #060606;
+    background-color: #0a1013;
     box-shadow: 5px 5px 5px rgba(14, 164, 184, 0.795),
     -5px -5px 5px rgba(63, 11, 207, 0.795);
 }
