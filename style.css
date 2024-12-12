@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,12 +20,13 @@ body {
     min-height: 1000px;
     height: auto;
     margin: 20px;
-    background-color: white;
-    box-shadow: 5px 5px 10px rgba(61, 59, 59, 0.1),
+    background-color: #0a1013;
+    box-shadow: 5px 5px 10px rgba(61, 59, 59, 0.767),
      -5px -5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .ul-header {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,18 +35,17 @@ body {
 .li-header {
     list-style-type: none;
     margin: 10px;
-    color: black;
     font-size: 18px;
     text-align: center;
 }
 
 .li-header:hover {
     background-color: whitesmoke;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .a-header {
-    color: black;
+    color: #060606;
     text-decoration: none;
 }
 
@@ -53,8 +53,8 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    background-color: white;
-    background: linear-gradient(45deg, #1e1e1f, #5a5959, #0f0f2e)
+    background-color: #060606;
+    background: linear-gradient(45deg, #060606, #0a1013, #060606)
 }
 
 .img-content {
@@ -74,27 +74,26 @@ body {
 }
 
 .profile {
-    color: white;
     justify-content:center;
     align-items: center;
 }
 
 .kolom-profile {
+    color: #12b656;
     padding: 5px;
     font-size: 33px;
     text-align: left;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 
+    3px 3px 0px #6e6d6d;
 }
 
 .introduction {
     padding: 5px;
     width: 90%;
-    color: white;
+    color: #ecf0f3;
     font-size: 20px;
     text-align: left;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 30px;
 }
 
 .icons a{
@@ -147,31 +146,33 @@ body {
 }
 
 .container-education {
-    margin: 10px;
+    /* margin: 10px; */
     display:flex;
     justify-content:center;
     align-items: center;
-    background-color:white;
+    position: relative;
+    /* background-color:white; */
 }
 
 .education {
     padding: 10px;
     margin: 10px;
     width: 50%;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
-    
+    background-color: #1e2d2e;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 5px rgba(177, 15, 77, 0.795), */
+    /* -5px -5px 5px rgba(182, 14, 146, 0.795); */
 }
 
 .kolom-education {
     font-size: 33px;
     padding: 15px;
     text-align: center;
-    background-color: whitesmoke;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    color: #e83a58;
+    background-color: #060606;
+    border-radius: 10px;
+    text-shadow: 
+    3px 3px 0px #6e6d6d;
 }
 
 .smk {
@@ -179,37 +180,43 @@ body {
     text-align: center;
     padding: 3px;
     margin: 5px;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    color: #ecf0f3;
+    border-radius: 5px;
+    background-color: #060606;
+    box-shadow: 5px 5px 5px rgba(177, 15, 77, 0.795),
+    -5px -5px 5px rgba(182, 14, 146, 0.795);
+    text-shadow: 
+    3px 3px 7px #6e6d6d;
 }
 
 .container-experience {
-    margin: 10px;
+    /* margin: 10px; */
     display:flex;
     justify-content:center;
     align-items: center;
-    background-color:white;
+    position: relative;
+    /* background-color:white; */
 }
 
 .experience {
     padding: 10px;
     margin: 10px;
     width: 50%;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #1e2d2e;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 5px rgba(214, 127, 13, 0.795), */
+    /* -5px -5px 5px rgba(192, 166, 16, 0.795); */
 }
 
 .kolom-experience {
     font-size: 33px;
     padding: 15px;
     text-align: center;
-    background-color: whitesmoke;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #f0b437;
+    background-color: #060606;
+    text-shadow: 
+    3px 3px 0px #6e6d6d;
 }
 
 .job {
@@ -217,37 +224,43 @@ body {
     text-align: center;
     padding: 3px;
     margin: 5px;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #ecf0f3;
+    background-color: #060606;
+    box-shadow: 5px 5px 5px rgba(214, 127, 13, 0.795),
+    -5px -5px 5px rgba(192, 166, 16, 0.795);
+    text-shadow: 
+    3px 3px 7px #6e6d6d;
 }
 
 .container-skill {
-    margin: 10px;
+    /* margin: 10px; */
     display:flex;
     justify-content:center;
     align-items: center;
-    background-color:white;
+    position: relative;
+    /* background-color:white; */
 }
 
 .skill-task {
     padding: 10px;
     margin: 10px;
     width: 50%;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #1e2d2e;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 5px rgba(14, 164, 184, 0.795), */
+    /* -5px -5px 5px rgba(63, 11, 207, 0.795); */
 }
 
 .kolom-skill {
     font-size: 33px;
     padding: 15px;
     text-align: center;
-    background-color: whitesmoke;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    color: #1cb7e7;
+    background-color: #060606;
+    border-radius: 10px;
+    text-shadow: 
+    3px 3px 0px #6e6d6d;
 }
 
 .skill {
@@ -255,10 +268,13 @@ body {
     text-align: center;
     padding: 3px;
     margin: 5px;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 5px rgba(0, 0, 0, 0.1);
+    color: #ecf0f3;
+    border-radius: 5px;
+    background-color: #060606;
+    box-shadow: 5px 5px 5px rgba(14, 164, 184, 0.795),
+    -5px -5px 5px rgba(63, 11, 207, 0.795);
+    text-shadow: 
+    3px 3px 7px #6e6d6d;
 }
 
 .li-footer {   
