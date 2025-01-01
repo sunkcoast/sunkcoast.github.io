@@ -1,286 +1,127 @@
-*,
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JUDUL WEBSITE -->
+    <title>TRIAL PROJECT</title>
+    <link href="snes.ico" rel="icon" type="image/x-icon">
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+        <!-- NAVIGATION BAR (HEADER)-->
+   <div class="container-body">
+        <div class="container-header">
+          <ul class="ul-header">
+            <li class="li-header">
+              <a href="index.html" class="a-header">Home</a>
+            </li>
+            <li class="li-header">
+              <a href="contact.html" class="a-header">Contact</a>
+            </li>
+            <li class="li-header">
+              <a href="about.html" class="a-header">About Me</a>
+            </li>
+           </ul>
+        </div>
+       <!-- <NAVIGATION BAR END -->
 
-body {
-    background-color: rgb(245, 245, 245);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
+       <!-- CONTENT 1 (ISI)-->
+        <div class="container-image">
+          <div class="img-content" >
+              <img class="img-pict" src="megaloman.jpg"/>
+            <div class="profile">
+                <h2 class="kolom-profile">Profile</h2>
+                <p class="introduction">Halo! Saya iBas, dan saat ini saya baru saja mulai belajar pemrograman. Meski masih di tahap awal, saya sangat penasaran dan bersemangat untuk memahami dunia teknologi ini.</p>
+                    <div class="icons">
+                      <a href="https://www.facebook.com/profile" class="fb"><i class="fab fa-facebook"></i></a>
+                      <a href="https://www.instagram.com/mambasx" class="insta"><i class="fab fa-instagram"></i></a>
+                      <a href="https://github.com/sunkcoast" class="git"><i class="fab fa-github"></i></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container-education">
+          <div class="education">
+           <h2 class="kolom-education">Education</h2>
+             <div class="smk">
+               <p>SMK PGRI 1 Sidoarjo</p>
+               <p><i>(Teknik Instalasi Tenaga Listrik</i>)</p>
+             </div>
+             <div class="smk">
+               <p>UPT BLK Surabaya</p>
+               <p><i>(Programmable Logic Controller)</i></p>
+             </div>
+           </div>
+       </div> 
 
-.container-body {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    margin: 20px;
-    background-color: #0a1013;
-    box-shadow: 5px 5px 10px rgba(61, 59, 59, 0.767),
-     -5px -5px 10px rgba(0, 0, 0, 0.1);
-}
+       <div class="container-experience">
+        <div class="experience">
+           <h2 class="kolom-experience">Experience</h2>
+             <div class="job">
+               <p>PT. DELTA JAYA ENGINEERING</p>
+               <p><i>(Junior Engineer</i>)</p>
+             </div>
+             <div  class="job">
+               <p>PT. KARYA TERANG SEDATI</p>
+               <p><i>(Maintenance Engineering</i>)</p>
+             </div>
+        </div>
+       </div>
+       
+        <div class="container-skill">
+          <div class="skill-task">
+            <h2 class="kolom-skill">Skill Code</h2>
+            <p class="skill">HTML</p>
+            <p class="skill">CSS</p>
+            <p class="skill">Javascript</p>
+          </div>
+          <div class="skill-task">
+            <h2 class="kolom-skill">Active Tasks</h2>
+          <i><a> <p class="skill">On Progress</p>
+            <p class="skill">On Progress</p>
+            <p class="skill">On Progress</p></i></a>
+          </div>
+        </div>
+       <!-- CONTENT 1 END -->
 
-.ul-header {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.li-header {
-    list-style-type: none;
-    margin: 10px;
-    font-size: 18px;
-    text-align: center;
-}
+      <!-- FOOTER CONTENT (COPYRIGHT) -->
+      <section id="footer">
+      <div class="container-footer">
+        <h2></h2>
+        <ul class="ul-footer">
+          <li class="li-footer">
+            <a class="a-footer">© 2024 Ini Copyright. </a>
+          </li>
+         </ul>
+      </div>
+     </section>
+      <!-- FOOTER CONTENT (COPYRIGHT) END -->
 
-.li-header:hover {
-    background-color: whitesmoke;
-    border-radius: 5px;
-}
+    </div>
 
-.a-header {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #060606;
-    text-decoration: none;
-}
+    <script> src="https://unpkg.com/scrollreveal"</script> 
 
-.container-image {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: #060606;
-    background: linear-gradient(45deg, #060606, #0a1013, #060606)
-}
+    <script src="main.js"></script>
+      
+    <style>
+      @font-face {
+      font-family: Baskic;
+      src: url(Baskic8.otf);
+    }
+    
+    h2 {
+      font-family: Baskic;
+    }
+    </style>
 
-.img-content {
-    position: relative; 
-    display: grid;
-    width: 100%;
-    grid-template-columns: 2fr 3fr;
-    justify-content:center;
-    align-items: center;
-}
+    
 
-.img-pict {
-    position: relative;
-    width: 85%;
-    height: auto;
-    margin: 20px;
-}
-
-.profile {
-    justify-content:center;
-    align-items: center;
-}
-
-.kolom-profile {
-    color: #12b656;
-    padding: 5px;
-    font-size: 33px;
-    text-align: left;
-    text-shadow: 
-    3px 3px 0px #6e6d6d;
-}
-
-.introduction {
-    padding: 5px;
-    width: 90%;
-    color: #ecf0f3;
-    font-size: 20px;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
-.icons a{
-    background: #ecf0f3;
-    position: relative;
-    height: 50px;
-    width: 50px;
-    margin: 0 10px;
-    display: inline-flex;
-    text-decoration: none;
-    border-radius: 50%;
-    transition: all 0.3s;
-    box-shadow: -3px -3px 7px #ffffff
-                3px 3px 5px #ceced1;
-}
-
-/* .icons a:hover:before {
-    content: --;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    border-radius: 50%;
-    box-shadow: inset -3px -3px 7px #ffffff
-                inset 3px 3px 5px #ceced1;
-} */
-
-.icons a i{
-    position: relative;
-    /* z-index: 3; */
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-size: 25px;
-    line-height: 50px;
-}
-
-.icons a:hover i{
-    transform: scale(0.9);
-}
-.icons a.fb i{
-    color: #426782
-}
-.icons a.insta i{
-    color: #e1306c
-}
-.icons a.git i{
-    color: #333
-}
-
-.container-education {
-    /* margin: 10px; */
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-    /* background-color:white; */
-}
-
-.education {
-    padding: 10px;
-    margin: 10px;
-    width: 50%;
-    background-color: #1e2d2e;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.350),
-    -5px -5px 5px rgba(0, 0, 0, 0.350);
-}
-
-.kolom-education {
-    font-size: 33px;
-    padding: 15px;
-    text-align: center;
-    color: #e83a58;
-    background-color: #060606;
-    border-radius: 10px;
-    text-shadow: 
-    3px 3px 0px #6e6d6d;
-}
-
-.smk {
-    font-size:18px;
-    text-align: center;
-    padding: 3px;
-    margin: 5px;
-    color: #ecf0f3;
-    border-radius: 5px;
-    background-color: #0a1013;
-    /* box-shadow: 5px 5px 5px rgba(177, 15, 77, 0.795), */
-    /* -5px -5px 5px rgba(182, 14, 146, 0.795); */
-}
-
-.container-experience {
-    /* margin: 10px; */
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-    /* background-color:white; */
-}
-
-.experience {
-    padding: 10px;
-    margin: 10px;
-    width: 50%;
-    background-color: #1e2d2e;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.350),
-    -5px -5px 5px rgba(0, 0, 0, 0.350);
-}
-
-.kolom-experience {
-    font-size: 33px;
-    padding: 15px;
-    text-align: center;
-    border-radius: 10px;
-    color: #f0b437;
-    background-color: #060606;
-    text-shadow: 
-    3px 3px 0px #6e6d6d;
-}
-
-.job {
-    font-size:18px;
-    text-align: center;
-    padding: 3px;
-    margin: 5px;
-    border-radius: 5px;
-    color: #ecf0f3;
-    background-color: #0a1013;
-    /* box-shadow: 5px 5px 5px rgba(214, 127, 13, 0.795), */
-    /* -5px -5px 5px rgba(192, 166, 16, 0.795); */
-}
-
-.container-skill {
-    /* margin: 10px; */
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-    /* background-color:white; */
-}
-
-.skill-task {
-    padding: 10px;
-    margin: 10px;
-    width: 50%;
-    background-color: #1e2d2e;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.350),
-    -5px -5px 5px rgba(0, 0, 0, 0.350);
-}
-
-.kolom-skill {
-    font-size: 33px;
-    padding: 15px;
-    text-align: center;
-    color: #1cb7e7;
-    background-color: #060606;
-    border-radius: 10px;
-    text-shadow: 
-    3px 3px 0px #6e6d6d;
-}
-
-.skill {
-    font-size:18px;
-    text-align: center;
-    padding: 3px;
-    margin: 5px;
-    color: #ecf0f3;
-    border-radius: 5px;
-    background-color: #0a1013;
-    box-shadow: 5px 5px 5px rgba(14, 164, 184, 0.795),
-    -5px -5px 5px rgba(63, 11, 207, 0.795);
-}
-
-.li-footer {   
-    padding: 5px;
-    list-style-type: none;
-    font-size: 15px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-}
-
-.a-footer {
-    background-color: white;
-}
+</body>
+</html>
